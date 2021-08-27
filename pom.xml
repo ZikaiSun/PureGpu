@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.haesleinhuepf</groupId>
+		<artifactId>clij-parent-pom</artifactId>
+		<version>2.2.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.pure</groupId>
+	<!-- note: the artifactId must contain an underscore _ to make ImageJ handle it correctly.-->
+	<artifactId>PureGpu</artifactId>
+	<version>0.1.0</version>
+
+	<name>PureGpu</name>
+	<description>PureGpu</description>
+	<url>zksun@link.cuhk.edu.hk</url>
+	<inceptionYear>2021</inceptionYear>
+	<organization>
+		<name>cuhk</name>
+		<url>https://www.cuhk.edu.hk/english/index.html</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Public domain</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>yourid</id>
+			<name>zikai</name>
+			<url>zksun@link.cuhk.edu.hk</url>
+			<organization>ivp,cuhk</organization>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>none</name>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>zikai sun</name>
+			<archive>zksun@link.cuhk.edu.hk</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/clij/clij</connection>
+        <developerConnection>scm:git:git@github.com/clij/clij</developerConnection>
+        <tag>HEAD</tag>
+		<url>https://github.com/clij/clij</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/clij/clij/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<package-name>com.pure</package-name>
+		<license.licenseName>bsd_3</license.licenseName>
+		<license.copyrightOwners>You</license.copyrightOwners>
+		<scijava.app.directory>/Users/jake3un/Desktop/PureGpu/Fiji.app/</scijava.app.directory>
+<!--		<scijava.app.directory>C:/programs/fiji-win64/Fiji.app/</scijava.app.directory>-->
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.haesleinhuepf</groupId>
+			<artifactId>clij_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.haesleinhuepf</groupId>
+			<artifactId>clij2_</artifactId>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>net.imagej</groupId>-->
+<!--			<artifactId>ij</artifactId>-->
+<!--			<version>1.53g</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>sc.fiji</groupId>-->
+<!--			<artifactId>imageware</artifactId>-->
+<!--			<version>2.0.0</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>com.local</groupId>-->
+<!--			<artifactId>jama</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>com.local</groupId>-->
+<!--			<artifactId>additionaluserinterface</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
+
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>hslh</id>
+			<url>http://dl.bintray.com/haesleinhuepf/clij</url>
+		</repository>
+	</repositories>
+
+</project>

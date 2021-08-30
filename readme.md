@@ -15,4 +15,4 @@ Open Fiji, start the plugin by running "Plugins/PureDenoise(cpu&gpu)/PureDenoise
 
 ## Speed test
 
-![alt text](https://github.com/ZikaiSun/PureGpu/blob/master/comp.png?raw=true)
+![alt text](https://github.com/ZikaiSun/PureGpu/blob/main/comp.png?raw=true)

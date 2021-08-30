@@ -12,3 +12,7 @@ This is the gpu&cpu version of the algorithm PureDenoise.
 ## Usage
 
 Open Fiji, start the plugin by running "Plugins/PureDenoise(cpu&gpu)/PureDenoiseGpu"
+
+## Speed test
+
+![alt text](https://github.com/ZikaiSun/PureGpu/blob/master/comp.png?raw=true)
